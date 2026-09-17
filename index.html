@@ -65,86 +65,79 @@
         </div>
     </section>
 
-    <!-- COMPACT & BALANCED COMIC SECTION -->
-    <section class="py-12 px-4 my-12 bg-slate-900 text-white relative overflow-hidden">
-        <div class="max-w-4xl mx-auto text-center relative z-10">
-            <span class="text-yellow-400 font-bold uppercase tracking-wider text-xs mb-2 block">
-                <i class="fa-solid fa-bolt mr-1"></i> Rapid Response On The Way
-            </span>
-            <h3 class="text-2xl md:text-3xl font-black mb-6 uppercase">
-                EXPRESS TECHNICIAN IS ON THE MOVE!
-            </h3>
+    <!-- COMBINED HERO & PRICING SECTION (좌 측 만화 이미지 절반 크기 + 우 측 요금 및 정책) -->
+    <section class="py-12 px-4 my-12 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                
+                <!-- LEFT COLUMN: Compact Comic Image (Width 50% scale feel) -->
+                <div class="md:col-span-5 text-center">
+                    <span class="text-yellow-400 font-bold uppercase tracking-wider text-xs mb-2 block">
+                        <i class="fa-solid fa-bolt mr-1"></i> Rapid Response On The Way
+                    </span>
+                    <h3 class="text-xl md:text-2xl font-black mb-4 uppercase text-white">
+                        EXPRESS TECHNICIAN<br><span class="text-blue-400">IS ON THE MOVE!</span>
+                    </h3>
 
-            <!-- Compact Image Wrapper -->
-            <div class="max-w-md mx-auto group">
-                <div class="relative bg-slate-800 rounded-xl overflow-hidden border border-slate-700 shadow-xl">
-                    <img src="111.jpg" alt="Technician riding motorcycle for urgent computer repair service" class="w-full h-auto object-contain mx-auto transform group-hover:scale-102 transition duration-500">
-                </div>
-            </div>
-
-            <p class="text-gray-300 text-base mt-6 max-w-xl mx-auto">
-                No traffic can stop us from getting your computer fixed on time. Contact us now for same-day express service!
-            </p>
-        </div>
-    </section>
-
-    <!-- PRICING & SERVICE POLICY SECTION -->
-    <section class="max-w-4xl mx-auto px-4 py-8">
-        <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-            <div class="text-center mb-8">
-                <span class="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Clear & Transparent Pricing</span>
-                <h3 class="text-3xl font-bold text-gray-800 mt-2">Service Rates & Terms</h3>
-                <p class="text-gray-500 text-sm mt-1">Standard service charges and policy for on-site & pick-up repairs.</p>
-            </div>
-
-            <!-- Service Grid -->
-            <div class="grid md:grid-cols-3 gap-6 mb-8">
-                <!-- Windows OS On-Site -->
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 text-center flex flex-col justify-between hover:border-blue-400 transition duration-200">
-                    <div>
-                        <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mx-auto mb-3 text-lg">
-                            <i class="fa-brands fa-windows"></i>
+                    <!-- Image wrapper scaled down -->
+                    <div class="max-w-[280px] mx-auto group">
+                        <div class="relative bg-slate-800 rounded-xl overflow-hidden border border-slate-700 shadow-xl">
+                            <img src="111.jpg" alt="Technician riding motorcycle for urgent computer repair service" class="w-full h-auto object-contain mx-auto transform group-hover:scale-102 transition duration-500">
                         </div>
-                        <h4 class="font-bold text-gray-800 mb-1">Windows Reinstallation</h4>
-                        <p class="text-xs text-gray-500 mb-4">On-Site Direct Installation</p>
                     </div>
-                    <div class="text-2xl font-black text-blue-600">$150</div>
+
+                    <p class="text-gray-300 text-xs mt-4 max-w-xs mx-auto">
+                        No traffic can stop us from getting your computer fixed on time. Same-day express service!
+                    </p>
                 </div>
 
-                <!-- Windows OS Pick-up -->
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 text-center flex flex-col justify-between hover:border-blue-400 transition duration-200">
-                    <div>
-                        <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mx-auto mb-3 text-lg">
-                            <i class="fa-solid fa-truck-ramp-box"></i>
+                <!-- RIGHT COLUMN: Pricing & Payment Policy -->
+                <div class="md:col-span-7 bg-white text-gray-800 p-6 md:p-8 rounded-2xl shadow-2xl">
+                    <div class="mb-6">
+                        <span class="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Service Rates</span>
+                        <h3 class="text-2xl font-bold text-gray-800 mt-2">Transparent Pricing & Terms</h3>
+                    </div>
+
+                    <!-- Price List -->
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg border border-slate-200">
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-800">Windows Reinstallation (On-Site)</h4>
+                                <p class="text-xs text-gray-500">Direct installation at your home or office</p>
+                            </div>
+                            <span class="text-xl font-black text-blue-600">$150</span>
                         </div>
-                        <h4 class="font-bold text-gray-800 mb-1">Windows Reinstallation</h4>
-                        <p class="text-xs text-gray-500 mb-4">Pick-up & Delivery Service</p>
-                    </div>
-                    <div class="text-2xl font-black text-blue-600">$120</div>
-                </div>
 
-                <!-- Networking Setup -->
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 text-center flex flex-col justify-between hover:border-blue-400 transition duration-200">
-                    <div>
-                        <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center mx-auto mb-3 text-lg">
-                            <i class="fa-solid fa-network-wired"></i>
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg border border-slate-200">
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-800">Windows Reinstallation (Pick-up & Delivery)</h4>
+                                <p class="text-xs text-gray-500">We pick up your PC and deliver back fixed</p>
+                            </div>
+                            <span class="text-xl font-black text-blue-600">$120</span>
                         </div>
-                        <h4 class="font-bold text-gray-800 mb-1">On-Site Networking</h4>
-                        <p class="text-xs text-gray-500 mb-4">Printer/Router Setup & Troubleshooting</p>
-                    </div>
-                    <div class="text-2xl font-black text-blue-600">$120</div>
-                </div>
-            </div>
 
-            <!-- Important Payment Policy Banner -->
-            <div class="bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-xl space-y-2">
-                <div class="flex items-center text-amber-800 font-bold text-base">
-                    <i class="fa-solid fa-triangle-exclamation mr-2 text-lg text-amber-600"></i> Payment & Hardware Policy
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg border border-slate-200">
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-800">On-Site Networking & Troubleshooting</h4>
+                                <p class="text-xs text-gray-500">Printer, router, network setup & issue resolution</p>
+                            </div>
+                            <span class="text-xl font-black text-blue-600">$120</span>
+                        </div>
+                    </div>
+
+                    <!-- Highlighted Payment & Hardware Policy Banner -->
+                    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl space-y-1.5">
+                        <div class="flex items-center text-amber-800 font-bold text-sm">
+                            <i class="fa-solid fa-triangle-exclamation mr-2 text-base text-amber-600"></i> Payment & Hardware Policy
+                        </div>
+                        <ul class="text-xs text-amber-900 space-y-1 list-disc list-inside pl-1">
+                            <li><strong>Hardware / Parts:</strong> Any additional or replacement hardware parts will be invoiced separately.</li>
+                            <li><strong>Payment Terms:</strong> All listed prices are labor costs. <u class="font-bold">Cash payment is required (No tax added)</u>.</li>
+                        </ul>
+                    </div>
+
                 </div>
-                <ul class="text-sm text-amber-900 space-y-1.5 list-disc list-inside pl-1">
-                    <li><strong>Hardware / Parts:</strong> Any additional or replacement hardware parts will be invoiced separately.</li>
-                    <li><strong>Payment Terms:</strong> All listed prices are labor costs. <u>Cash payment is required (No tax added)</u>.</li>
-                </ul>
+
             </div>
         </div>
     </section>
