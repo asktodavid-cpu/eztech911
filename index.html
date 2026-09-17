@@ -22,7 +22,7 @@
         </div>
     </header>
 
-    <!-- Top Hero Section (Text Only) -->
+    <!-- Top Hero Section -->
     <section class="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white py-16 px-4 text-center">
         <div class="max-w-4xl mx-auto">
             <span class="bg-red-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest shadow-lg">Mobile On-Site Repair</span>
@@ -65,11 +65,8 @@
         </div>
     </section>
 
-    <!-- EYE-CATCHING COMIC SECTION (Centered Highlight) -->
+    <!-- BALANCED COMIC SECTION -->
     <section class="py-16 px-4 my-12 bg-slate-900 text-white relative overflow-hidden">
-        <!-- Background Glow Effect -->
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
-
         <div class="max-w-4xl mx-auto text-center relative z-10">
             <span class="text-yellow-400 font-bold uppercase tracking-wider text-sm mb-2 block">
                 <i class="fa-solid fa-bolt mr-1"></i> Rapid Response On The Way
@@ -78,17 +75,57 @@
                 DAVID KIM IS ON THE MOVE!
             </h3>
 
-            <!-- Comic Image Frame -->
-            <div class="relative inline-block group w-full">
-                <div class="absolute -inset-2 bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 rounded-3xl blur-md opacity-75 group-hover:opacity-100 transition duration-500"></div>
+            <!-- Balanced Image Display -->
+            <div class="max-w-2xl mx-auto group">
                 <div class="relative bg-slate-800 rounded-2xl overflow-hidden border-2 border-slate-700 shadow-2xl">
-                    <img src="111.jpg" alt="David Kim riding motorcycle for urgent computer repair service" class="w-full h-auto object-cover transform group-hover:scale-102 transition duration-500">
+                    <img src="111.jpg" alt="David Kim riding motorcycle for urgent computer repair service" class="w-full h-auto object-contain mx-auto transform group-hover:scale-102 transition duration-500">
                 </div>
             </div>
 
             <p class="text-gray-300 text-lg mt-8 max-w-2xl mx-auto">
                 No traffic can stop us from getting your computer fixed on time. Contact us now for same-day express service!
             </p>
+        </div>
+    </section>
+
+    <!-- EMAIL CONTACT FORM SECTION -->
+    <section class="max-w-3xl mx-auto px-4 py-12">
+        <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+            <div class="text-center mb-8">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-800">Send Us a Message</h3>
+                <p class="text-gray-500 text-sm mt-1">Have a question? Fill out the form below and David Kim will get back to you shortly.</p>
+            </div>
+
+            <!-- Formspree Integration -->
+            <form action="https://formspree.io/f/asktodavid@gmail.com" method="POST" class="space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Your Name</label>
+                        <input type="text" name="name" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition duration-200">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                        <input type="tel" name="phone" placeholder="(213) 000-0000" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition duration-200">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Your Email</label>
+                    <input type="email" name="_replyto" required placeholder="example@email.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition duration-200">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Describe Your Computer Issue</label>
+                    <textarea name="message" rows="4" required placeholder="Please describe the problem with your computer..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition duration-200"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg transition duration-200 text-lg flex items-center justify-center">
+                    <i class="fa-solid fa-paper-plane mr-2"></i> Send Message
+                </button>
+            </form>
         </div>
     </section>
 
@@ -118,8 +155,11 @@
     <footer class="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
         <div class="max-w-6xl mx-auto px-4 text-center text-sm">
             <p class="mb-2"><strong class="text-white">eztech911</strong> | Owner: David Kim</p>
-            <p class="mb-4">
+            <p class="mb-2">
                 Office Tel: (213) 247-0011 / (714) 584-8288
+            </p>
+            <p class="mb-4">
+                Direct Email: <a href="mailto:asktodavid@gmail.com" class="text-blue-400 hover:underline">asktodavid@gmail.com</a>
             </p>
             <p class="text-xs text-gray-600">&copy; eztech911. All rights reserved.</p>
         </div>
