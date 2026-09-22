@@ -12,19 +12,21 @@
 
     <!-- Header -->
     <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- 로고 -->
             <h1 class="text-2xl font-extrabold tracking-wider text-blue-400">
                 eztech<span class="text-red-500">911</span>
             </h1>
             
-            <!-- 상단 오른쪽: 카운터 + 기존 버튼 배치 -->
-            <div class="flex items-center space-x-3">
-                <!-- Hits Visitor Counter Badge -->
-                <a href="https://hits.seeyoufarm.com" target="_blank" class="inline-flex items-center">
-                    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feztech911.com&count_bg=%232563EB&title_bg=%231E293B&icon=&icon_color=%23E7E7E7&title=VISITORS&edge_flat=false" alt="Hits Counter" class="h-8">
+            <!-- 상단 오른쪽 귀퉁이: 카운터 뱃지 + 웹사이트 버튼 -->
+            <div class="flex items-center space-x-2 sm:space-x-3">
+                <!-- Hits Counter Badge (오른쪽 꼭대기) -->
+                <a href="https://hitscounter.dev" target="_blank" class="inline-flex items-center hover:opacity-90 transition duration-200">
+                    <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Feztech911.com&count_bg=%232563eb&title_bg=%231e293b&title=VISITORS" alt="Hits Counter" class="h-6 sm:h-7">
                 </a>
 
-                <a href="https://eztech911.com/" class="text-sm bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200">
+                <!-- 링크 버튼 -->
+                <a href="https://eztech911.com/" class="text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white font-semibold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition duration-200 whitespace-nowrap">
                     eztech911.com
                 </a>
             </div>
